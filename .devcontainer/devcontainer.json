@@ -27,5 +27,5 @@
       }
     }
   },
-  "postCreateCommand": "mix deps.get"
+  "postCreateCommand": "mix deps.get && mix ecto.create"
 }
